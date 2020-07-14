@@ -2,16 +2,16 @@ import Highcharts from 'highcharts'
 const options1 = {
 
     title: {
-        text: 'Solar Employment Growth by Sector, 2010-2016'
+        text: 'Profit'
     },
 
     subtitle: {
-        text: 'Source: thesolarfoundation.com'
+        text: 'profit for diffent wifi points'
     },
 
     yAxis: {
         title: {
-            text: 'Number of Employees'
+            text: 'Profit (Millions)'
         }
     },
 
@@ -37,11 +37,11 @@ const options1 = {
     },
 
     series: [{
-        name: 'Installation',
-        data: [43934, 52503, 57177, 69658, 97031, 119931, 137133, 154175]
+        name: ' Wifi Point 1',
+        data: [43934, 52503, 57177, 69658, 67031, 119931, 107133, 154175]
     }, {
-        name: 'Manufacturing',
-        data: [24916, 24064, 29742, 29851, 32490, 30282, 38121, 40434]
+        name: 'Wifi Point 2',
+        data: [24916, 24064, 59742, 29851, 62490, 30282, 58121, 40434]
     },],
 
     responsive: {
@@ -213,28 +213,44 @@ const options3 = {
 const options4 = {
 
     title: {
-        text: 'Average Consumption'
+        text: 'Daily Average Consumption'
     },
 
     xAxis: {
         tickInterval: 1,
         type: 'logarithmic',
         accessibility: {
-            rangeDescription: 'Range: 1 to 10'
         }
     },
 
     yAxis: {
+        title: {
+            text: 'Data (GB)'
+        },
         type: 'logarithmic',
         minorTickInterval: 0.1,
         accessibility: {
             rangeDescription: 'Range: 0.1 to 1000'
         }
     },
+    xAxis: {
+        categories: [
+            '2nd',
+            '3rd',
+            '4th',
+            '5th',
+            '6th',
+            '7th',
+            '8th',
+            '9th',
+            '11th',
+            '12th',
+            '13th'
+        ],
+    },
 
     tooltip: {
-        headerFormat: '<b>{series.name}</b><br />',
-        pointFormat: 'x = {point.x}, y = {point.y}'
+        headerFormat: '<b>{"July"}</b><br />',
     },
 
     series: [{

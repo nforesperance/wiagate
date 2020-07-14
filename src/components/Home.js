@@ -23,7 +23,7 @@ class Home extends React.Component{
                             </div>
                         </div>
                         <div className="row m-t-25">
-                            <div className="col-sm-6 col-lg-3">
+                            <div className="col-sm-6 col-md-2 col-lg-3">
                                 <div className="overview-item overview-item--c1">
                                     <div className="overview__inner">
                                         <div className="overview-box clearfix">
@@ -41,7 +41,7 @@ class Home extends React.Component{
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-sm-6 col-lg-3">
+                            <div className="col-sm-6 col-md-2 col-lg-3">
                                 <div className="overview-item overview-item--c2">
                                     <div className="overview__inner">
                                         <div className="overview-box clearfix">
@@ -59,7 +59,7 @@ class Home extends React.Component{
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-sm-6 col-lg-3">
+                            <div className="col-sm-6 col-md-2 col-lg-3">
                                 <div className="overview-item overview-item--c3">
                                     <div className="overview__inner">
                                         <div className="overview-box clearfix">
@@ -77,7 +77,7 @@ class Home extends React.Component{
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-sm-6 col-lg-3">
+                            <div className="col-sm-6 col-md-2 col-lg-3">
                                 <div className="overview-item overview-item--c4">
                                     <div className="overview__inner">
                                         <div className="overview-box clearfix">
