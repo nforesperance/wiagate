@@ -17,14 +17,15 @@ function App() {
       <Router>
       
       <Switch>
-        <Route path='/Home' component={Home} />
-        <Route path='/stat' component={Statistique} />
-        <Route path='/map' component={Map} />
-        <Route path= '/Services' component= {Services} />
-        <Route path= '/Auth' component= {Auth} />
-        <Route path= '/SignIn' component= {SignIn} />
-        <Route path= '/null' component= {null} />
-        <Route path= '/Forfaits' component= {Forfaits} />
+        <Route path='/Home' component={Home} exact/>
+        <Route path='/stat' component={Statistique} exact/>
+        <Route path='/map' component={Map} exact/>
+        <Route path= '/Services' component= {Services} exact/>
+        <Route path= '/Auth' component= {Auth} exact/>
+        <Route path= '/SignIn' component= {SignIn} exact/>
+        <Route path= '/null' component= {null} exact/>
+        <Route path= '/Forfaits' component= {Forfaits} exact/>
+        <Route path= '/' component= {Auth} exact/>
         
       </Switch>
       
