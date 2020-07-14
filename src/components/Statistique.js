@@ -1,5 +1,4 @@
 import React , {component} from 'react';
-
 class Statistique extends React.Component{
     render(){
         return(
