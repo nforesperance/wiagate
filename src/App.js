@@ -13,7 +13,7 @@ function App() {
       <Router>
       <Header></Header>
       <Switch>
-        <Route path='/Home' component={Home} />
+        <Route path='/' component={Statistique} />
         <Route path='/stat' component={Statistique} />
         <Route path='/map' component={Map} />
       </Switch>
