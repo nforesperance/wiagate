@@ -7,8 +7,11 @@ import Statistique from './components/Statistique';
 import Map from './components/Map';
 import Services from './components/user/Services';
 import SignIn from './components/user/SignIn';
-import Auth from './components/user/Auth';
 import Forfaits from './components/user/Forfaits';
+import Accueil from './components/user/Accueil';
+import Parameters from './components/user/Parameters';
+import History from './components/user/History';
+import AuthParent from './components/user/Auth_Parent'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 function App() {
 
@@ -17,15 +20,18 @@ function App() {
       <Router>
       
       <Switch>
-        <Route path='/Home' component={Home} exact/>
-        <Route path='/stat' component={Statistique} exact/>
-        <Route path='/map' component={Map} exact/>
-        <Route path= '/Services' component= {Services} exact/>
-        <Route path= '/Auth' component= {Auth} exact/>
-        <Route path= '/SignIn' component= {SignIn} exact/>
-        <Route path= '/null' component= {null} exact/>
-        <Route path= '/Forfaits' component= {Forfaits} exact/>
-        <Route path= '/' component= {Auth} exact/>
+        <Route path='/Home' component={Home} />
+        <Route path='/stat' component={Statistique} />
+        <Route path='/map' component={Map} />
+        <Route path= '/Services' component= {Services} />
+        <Route path= '/SignIn' component= {SignIn} />
+        <Route path= '/null' component= {null} />
+        <Route path= '/Forfaits' component= {Forfaits} />
+        <Route path= '/History' component= {History} />
+        <Route path= '/Parameters' component= {Parameters} />
+        <Route path= '/Accueil' component= {Accueil} />
+        <Route path= '/Auth_Parent' component= {AuthParent} />
+        <Route path= '/' component= {Accueil} />
         
       </Switch>
       
@@ -35,3 +41,4 @@ function App() {
 }
 
 export default App;
+

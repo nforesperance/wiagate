@@ -1,35 +1,12 @@
 import React, { Component } from 'react';
+import AuthParent from './Auth_Parent'
 
 class Services extends Component {
     render() {
    
       return( 
       <>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">	
-          <font face="Times New Roman" style={{fontSize: "300%", marginLeft: "8%" , marginTop: "1%"}}> WIAGATE </font>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="nav navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="/Accueil">Accueil <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="/Services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/Forfaits">Forfaits</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/Parametres">Parametres</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/Auth"> LogOut <i class="fas fa-sign-out-alt"></i></a>
-          </li>
-          </ul>
-          </div>
-		</nav>
+        <AuthParent></AuthParent>
 
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
@@ -39,13 +16,13 @@ class Services extends Component {
 			</ol>
 			<div class="carousel-inner" role="listbox" style={{width:"100%", height: "500px"}}>
 			  <div class="carousel-item active">
-				  <img src="assets/user/images/pic01.jpg" class="d-block w-100" alt="..."/>
+				  <img src="assets/user/images/Socials.jpg" class="d-block w-100" alt="..."/>
 			  </div>
 			  <div class="carousel-item">
-				  <img src="assets/user/images/pic02.jpg" class="d-block w-100" alt="..."/>
+				  <img src="assets/user/images/students.jpg" class="d-block w-100" alt="..."/>
 			  </div>
 			  <div class="carousel-item">
-				  <img src="assets/user/images/pic03.jpg" class="d-block w-100" alt="..."/>
+				  <img src="assets/user/images/social.jpg" class="d-block w-100" alt="..."/>
 			  </div>
 			</div>
 			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
