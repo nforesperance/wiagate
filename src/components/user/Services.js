@@ -16,13 +16,13 @@ class Services extends Component {
 			</ol>
 			<div class="carousel-inner" role="listbox" style={{width:"100%", height: "500px"}}>
 			  <div class="carousel-item active">
-				  <img src="assets/user/images/Socials.jpg" class="d-block w-100" alt="..."/>
+				  <img src="assets/user/images/Socials.jpg" style={{ height: "700px"}} class="d-block w-100" alt="..."/>
 			  </div>
 			  <div class="carousel-item">
-				  <img src="assets/user/images/students.jpg" class="d-block w-100" alt="..."/>
+				  <img src="assets/user/images/students.jpg" style={{ height: "800px"}} class="d-block w-100" alt="..."/>
 			  </div>
 			  <div class="carousel-item">
-				  <img src="assets/user/images/social.jpg" class="d-block w-100" alt="..."/>
+				  <img src="assets/user/images/social.jpg" style={{ height: "700px"}} class="d-block w-100" alt="..."/>
 			  </div>
 			</div>
 			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

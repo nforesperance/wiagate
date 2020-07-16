@@ -14,24 +14,24 @@ class SignIn extends Component {
         this.setState({pass: event.target.value});
     }
 
-    handleSubmit = event => {
-        event.preventDefault();
+    // handleSubmit = event => {
+    //     event.preventDefault();
 
-        // const user = {
-        //     username: this.state.username,
-        //     password: this.state.pass
+    //     // const user = {
+    //     //     username: this.state.username,
+    //     //     password: this.state.pass
             
-        // };
+    //     // };
 
-        axios.post(`http://192.168.43.161:8000/api/user/login/`, {username: this.state.username,
-        password: this.state.pass})
-        .then(res => {
-            this.setState({test: true})   
+    //     axios.post(`http://192.168.43.161:8000/api/user/login/`, {username: this.state.username,
+    //     password: this.state.pass})
+    //     .then(res => {
+    //         this.setState({test: true})   
 
-        }).catch(error =>{
-            console.log("there was an error")
-        })
-    }
+    //     }).catch(error =>{
+    //         console.log("there was an error")
+    //     })
+    // }
 
     render() {
    

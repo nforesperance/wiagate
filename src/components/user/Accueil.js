@@ -42,8 +42,6 @@ class  Accueil extends React.Component{
         return(
         <> 
 
-        <AuthParent></AuthParent>
-
         <div className="backgroundAccueil">
                 <div className="limiter">
                     <font face="Times New Roman" style={{ fontSize:"500%" , color:"rgb(253, 253, 253)", marginLeft:"1%" , marginTop: "1%" }} > WIAGATE</font>

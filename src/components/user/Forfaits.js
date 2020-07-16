@@ -8,31 +8,8 @@ class  Forfaits extends React.Component{
             <div className="is-preload">          
                 <AuthParent></AuthParent>
 
-                <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-                    <ol className="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div className="carousel-inner" role="listbox"style={{ width:"100% ", height: "500px"}} >
-                        <div className="carousel-item active">
-                            <img src="assets/user/images/ForfaitsLanding.gif"  class="d-block w-100" alt="..."/>
-                        </div>
-                        <div className="carousel-item">
-                            <img src="assets/user/images/Forfaits.jpg" className="d-block w-100" alt="..."/>
-                        </div>
-                        <div className="carousel-item">
-                            <img src="assets/user/images/social.jpg" className="d-block w-100" alt="..."/>
-                        </div>
-                    </div>
-                    <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="sr-only">Previous</span>
-                    </a>
-                    <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="sr-only">Next</span>
-                    </a>
+                <div className="landindForfaits">
+                    <img src="assets/user/images/ForfaitsLanding.gif" style={{height : "600px"}}   class="d-block w-100" alt="..."/>
                 </div>
 
                 <div id="wrapper">
